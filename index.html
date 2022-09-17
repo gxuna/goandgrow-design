@@ -159,6 +159,37 @@
         .w-30{
             width: 33%;
         }
+        @media only screen and (max-width: 1020px){
+            .w-30{
+                width: 100%;
+            }
+            .flex-wrap-md {
+                flex-wrap: wrap;
+            }
+        }
+        @media only screen and (max-width: 594px){
+            .text-active {
+                font-size: 18px !important;
+            }
+            .transparent {
+              font-size: 18px !important;
+            }
+            .cover{
+                width: calc(100% - 15px);
+
+            }
+            .main {
+                padding: 0;
+            }
+            .cover-md{
+                width: 100%;
+                margin-left: 4px;
+            }
+            .title.white{
+                font-size: 24px !important;
+            }
+
+        }
     </style>
 </head>
 <body>
@@ -176,9 +207,10 @@
 
 </div>
  <div class="main" >
+     <!--aq vmushaog coveris responsivze-->
     <div class="cover">
-        <p class="title white ml-20">dasaqmebis da testirebis avtomatizirebuli sistema</p>
-        <div class="d-flex white w-6 ml-20" >
+        <p class="title white ml-20 cover-md">dasaqmebis da testirebis avtomatizirebuli sistema</p>
+        <div class="d-flex flex-wrap-md white w-6 ml-20 cover-md " >
             <div>
                 <p>
                     kompaniebistvis
@@ -203,9 +235,9 @@
             </div>
         </div>
     </div>
-     <div class="sector mt-30">
-         <p class="title">უპირატესობები მომხმარებლებისთვის</p>
-         <div class="priorites">
+     <div class="sector  mt-30">
+         <p class="title text-active">უპირატესობები მომხმარებლებისთვის</p>
+         <div class="priorites flex-wrap-md">
              <div class="font-size-18 flex-column w-30">
                  <img src="https://goandgrow.ge/assets/image/user-image-1.svg" alt="">
                  <span class="font-orange">seqmeni seni profili</span>
@@ -225,8 +257,8 @@
          </div>
      </div>
      <div class="sector mt-30 sector-bg-2">
-         <p class="title">უპირატესობები მომხმარებლებისთვის</p>
-         <div class="priorites">
+         <p class="title text-active">უპირატესობები მომხმარებლებისთვის</p>
+         <div class="priorites flex-wrap-md">
              <div class="font-size-18 flex-column w-30">
                  <img src="https://goandgrow.ge/assets/image/user-image-1.svg" alt="">
                  <span class="font-orange">seqmeni seni profili</span>
